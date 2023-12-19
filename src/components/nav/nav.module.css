@@ -1,0 +1,5 @@
+.nav {
+  display: grid;
+  gap: 2rem;
+  grid-auto-flow: column;
+}
