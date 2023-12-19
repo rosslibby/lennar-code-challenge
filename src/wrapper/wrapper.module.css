@@ -9,12 +9,22 @@
 
 .wrapper h1 {
   color: var(--text-primary);
-  font-size: 3rem;
+  /* font-size: 3rem;
   line-height: 3rem;
+  letter-spacing: -0.125rem; */
+  font-size: 4.5rem;
   font-weight: 800;
-  letter-spacing: -0.125rem;
+  line-height: 4.5rem;
+  margin: 1.5rem 0 1.25rem;
 }
 
 .wrapper h1 span {
   color: var(--brand-secondary);
+}
+
+.wrapper p {
+  color: var(--text-secondary);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.75rem;
 }
