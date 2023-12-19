@@ -42,3 +42,8 @@
   background-color: var(--brand-contrast);
   padding: 0.5625rem 1.0625rem;
 }
+
+.button--minimal {
+  background-color: transparent;
+  color: var(--text-primary);
+}

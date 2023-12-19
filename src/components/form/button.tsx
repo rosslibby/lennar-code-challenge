@@ -10,7 +10,7 @@ export const Button = ({ label, onClick, variant }: {
     styles.button,
     ...(
       variant
-        ? [styles[`button-${variant}`]]
+        ? [styles[`button--${variant}`]]
         : [styles['button--primary']]
       ),
   ].join(' ')

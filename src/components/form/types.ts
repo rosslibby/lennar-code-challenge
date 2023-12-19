@@ -5,7 +5,7 @@ export enum InputType {
 }
 
 export enum ButtonVariant {
-  primary,
-  secondary,
-  minimal,
+  primary = 'primary',
+  secondary = 'secondary',
+  minimal = 'minimal',
 }
