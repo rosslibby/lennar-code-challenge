@@ -7,7 +7,7 @@ import styles from './main.module.css'
 export default function Main() {
   return (
     <main className={styles.main}>
-      <div className={styles.hero}>
+      <div>
         <Callout />
         <div className={styles.heroText}>
           <h1>A better way to <span>ship web apps</span></h1>
