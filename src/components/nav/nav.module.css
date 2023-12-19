@@ -3,3 +3,9 @@
   gap: 2rem;
   grid-auto-flow: column;
 }
+
+@media screen and (max-width: 833px) {
+  .nav {
+    display: none;
+  }
+}
