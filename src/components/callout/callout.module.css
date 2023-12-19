@@ -34,5 +34,6 @@
 
 .icon {
   color: var(--text-placeholder);
-  margin-left: -0.5rem;
+  display: inline-block;
+  padding-right: .5rem;
 }
