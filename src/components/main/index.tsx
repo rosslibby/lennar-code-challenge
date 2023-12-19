@@ -16,7 +16,7 @@ export default function Main() {
           <h1>A better way to <span>ship web apps</span></h1>
           <p>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>
         </div>
-        <form>
+        <form className={styles.form}>
           <InputGroup>
             <Input
               type={InputType.email}
