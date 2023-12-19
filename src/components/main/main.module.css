@@ -9,9 +9,6 @@
 
 .main h1 {
   color: var(--text-primary);
-  /* font-size: 3rem;
-  line-height: 3rem;
-  letter-spacing: -0.125rem; */
   font-size: 4.5rem;
   font-weight: 800;
   line-height: 4.5rem;
@@ -39,6 +36,14 @@
 
   .heroText p {
     font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .main h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: -0.125rem;
   }
 }
 
