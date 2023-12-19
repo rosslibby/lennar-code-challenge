@@ -1,3 +1,6 @@
+import { Input, InputGroup } from '../form'
+import { Button } from '../form/button'
+import { InputType } from '../form/types'
 import styles from './main.module.css'
 
 export default function Main() {
@@ -14,8 +17,15 @@ export default function Main() {
           <p>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>
         </div>
         <form>
-          <input type="email" placeholder="Enter your email" />
-          <button>Start free trial</button>
+          <InputGroup>
+            <Input
+              type={InputType.email}
+              onChange={() => null}
+              placeholder="Enter your email"
+              name="email"
+            />
+            <Button onClick={() => null} label="Start free trial" />
+          </InputGroup>
           <p>Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="/terms-of-service">terms of service</a>.</p>
         </form>
       </div>
