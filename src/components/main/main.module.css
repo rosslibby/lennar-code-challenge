@@ -1,0 +1,11 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 2rem;
+  padding: 6rem 0.5rem;
+}
+
+.hero {}
+.hero .callout {}
+.hero .callout .pill {}
+.hero .text {}
