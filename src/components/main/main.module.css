@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
 .main {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   gap: 2rem;
   padding: 6rem 0.5rem;
+}
+
+.form p a {
+  color: var(--text-primary);
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .form p {
@@ -13,10 +21,12 @@
   margin-top: 1rem;
 }
 
-.form p a {
-  color: var(--text-primary);
-  font-weight: 500;
-  text-decoration: none;
+.heroText p {
+  color: var(--text-secondary);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  margin: 1.25rem 0 3rem;
 }
 
 .hero {}

@@ -1,3 +1,4 @@
+import Callout from '../callout'
 import { Input, InputGroup } from '../form'
 import { Button } from '../form/button'
 import { InputType } from '../form/types'
@@ -7,11 +8,7 @@ export default function Main() {
   return (
     <main className={styles.main}>
       <div className={styles.hero}>
-        <div className={styles.heroCallout}>
-          <span className={styles.pill}>We're hiring</span>
-          <span>Visit our careers page</span>
-          <span>&rcar;</span>
-        </div>
+        <Callout />
         <div className={styles.heroText}>
           <h1>A better way to <span>ship web apps</span></h1>
           <p>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>
