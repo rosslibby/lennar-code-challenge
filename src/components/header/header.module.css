@@ -1,0 +1,19 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leading {
+  align-items: center;
+  display: grid;
+  gap: 2.5rem;
+  grid-auto-flow: column;
+}
+
+.trailing {
+  align-items: center;
+  display: grid;
+  gap: 1.5rem;
+  grid-auto-flow: column;
+}
