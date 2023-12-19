@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.leading}>
-        <img className={styles.logo} src="./assets/logo.svg" />
+        <img className={styles.logo} src="./assets/logo.svg" alt="Lennar Code Challenge" />
         <Nav />
       </div>
       <div className={styles.trailing}>

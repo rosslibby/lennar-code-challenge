@@ -19,7 +19,7 @@ export default function Main() {
           <form>
             <input type="email" placeholder="Enter your email" />
             <button>Start free trial</button>
-            <p>Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="#">terms of service</a>.</p>
+            <p>Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="/terms-of-service">terms of service</a>.</p>
           </form>
         </div>
       </main>
