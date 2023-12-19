@@ -1,0 +1,12 @@
+.main {
+  background-color: #111827;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.hero {}
+.hero .callout {}
+.hero .callout .pill {}
+.hero .text {}

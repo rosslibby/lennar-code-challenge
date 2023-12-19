@@ -1,21 +1,10 @@
-import styles from './main.module.sass'
+import Header from '../components/header'
+import styles from './main.module.css'
 
 export default function Main() {
   return (
     <div className={styles.main}>
-      <header>
-        <img src="./assets/logo.svg" alt="Lennar Code Challenge" />
-        <nav>
-          <ul>
-            <li>Product</li>
-            <li>Features</li>
-            <li>Marketplace</li>
-            <li>Company</li>
-          </ul>
-        </nav>
-        <span>Log in</span>
-        <button>Start free trial</button>
-      </header>
+      <Header />
       <main>
         <div className={styles.hero}>
           <div className={styles.heroCallout}>
