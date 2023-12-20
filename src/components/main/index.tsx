@@ -56,7 +56,7 @@ export default function Main() {
               value={email}
             />
             <Button
-              disabled={loading}
+              disabled={loading || !email.length}
               onClick={() => null}
               label={loading ? <Spinner /> : 'Start free trial'}
             />

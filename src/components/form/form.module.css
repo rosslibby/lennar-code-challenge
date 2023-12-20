@@ -33,6 +33,10 @@
   width: max-content;
 }
 
+.button:disabled {
+  cursor: not-allowed;
+}
+
 .button--primary {
   background-color: var(--brand-primary);
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.06),
