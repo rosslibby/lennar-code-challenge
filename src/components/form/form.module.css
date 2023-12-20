@@ -49,12 +49,6 @@
   color: var(--text-primary);
 }
 
-@media screen and (max-width: 834px) {
-  .inputGroup {
-    width: 135%;
-  }
-}
-
 @media screen and (max-width: 833px) {
   .inputGroup {
     grid-template-columns: 1fr;

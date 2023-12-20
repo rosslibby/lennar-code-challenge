@@ -49,6 +49,10 @@
   .heroText p {
     font-size: 1.25rem;
   }
+
+  .form {
+    width: 113%;
+  }
 }
 
 @media screen and (max-width: 834px) {
@@ -56,12 +60,21 @@
     background-size: 624px;
     background-position-x: 250%;
     background-position-y: 2rem;
+    grid-template-columns: 46% auto;
   }
 
   .main h1 {
     font-size: 3rem;
     line-height: 3rem;
     letter-spacing: -0.125rem;
+  }
+
+  .heroText p {
+    font-size: 1.125rem;
+  }
+
+  .form {
+    width: 144%;
   }
 }
 
@@ -85,6 +98,10 @@
     font-size: 1rem;
     line-height: 1.5rem;
     margin: 0.75rem 0 2.5rem;
+  }
+
+  .form {
+    width: 100%;
   }
 }
 
