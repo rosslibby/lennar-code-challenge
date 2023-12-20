@@ -1,3 +1,17 @@
+## DISCLAIMER
+I completed the project last night (12/19) and submitted it at 7:59pm EST. I did not, however, update the documentation. Here are the steps to run, submitted on 12/20 at 12:08pm EST:
+
+1. Clone the project
+2. Navigate to project root
+3. Run `yarn` or `npm i` to install dependencies
+4. Run `yarn start` or `npm start` to run the project
+
+I also created a new branch in which I solidified some of the styling. [This is the `late-submission` branch](https://github.com/rosslibby/lennar-code-challenge/tree/late-submission).
+
+Below is the documentation as it was at the time of my submission on 12/19:
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
