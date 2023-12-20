@@ -5,3 +5,12 @@
   line-height: 1.5rem;
   text-decoration: none;
 }
+
+@media screen and (max-width: 833px) {
+  .navItem {
+    color: var(--text-mobile);
+    display: block;
+    font-weight: 400;
+    padding: 0.5rem 0.75rem;
+  }
+}

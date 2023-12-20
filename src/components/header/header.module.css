@@ -20,6 +20,8 @@
 
 .mobileNav {
   align-items: center;
+  background-color: transparent;
+  border: none;
   display: grid;
   height: 2.5rem;
   justify-content: center;
@@ -37,10 +39,33 @@
   .trailing {
     display: none;
   }
+
+  .navBackdrop {
+    animation-name: navBackdrop;
+    animation-duration: 300ms;
+    animation-iteration-count: 1;
+    background-color: var(--bg-overlay);
+    height: 100vh;
+    left: 0;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+  }
 }
 
 @media screen and (min-width: 834px) {
   .mobileNav {
     display: none;
+  }
+}
+
+@keyframes navBackdrop {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }

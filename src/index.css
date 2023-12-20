@@ -4,11 +4,14 @@
   --bg-black: #000000;
   --bg-color: #111827;
   --text-placeholder: #6b7280;
+  --bg-overlay: rgba(107, 114, 128, 0.75);
   --text-primary: #ffffff;
   --text-secondary: #d1d5db;
+  --text-mobile: #374151;
   --brand-primary: #6366f1;
   --brand-secondary: #818cf8;
   --brand-contrast: #4b5563;
+  --brand-mobile: #4f46e5;
 }
 
 body {
