@@ -6,7 +6,12 @@ I completed the project last night (12/19) and submitted it at 7:59pm EST. I did
 3. Run `yarn` or `npm i` to install dependencies
 4. Run `yarn start` or `npm start` to run the project
 
-I also created a new branch in which I solidified some of the styling. [This is the `late-submission` branch](https://github.com/rosslibby/lennar-code-challenge/tree/late-submission).
+I also created a new branch in which I:
+- Improved styling (made it pixel-perfect to match the Figma)
+- Added loading indicator for pending data
+- Added form submission to the provided GraphQL endpoint
+
+You can find the [`late-submission`](https://github.com/rosslibby/lennar-code-challenge/tree/late-submission) branch [here](https://github.com/rosslibby/lennar-code-challenge/tree/late-submission).
 
 Below is the documentation as it was at the time of my submission on 12/19:
 
