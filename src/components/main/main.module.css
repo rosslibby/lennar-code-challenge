@@ -137,3 +137,7 @@
   line-height: 1.25rem;
   margin-top: 1rem;
 }
+
+.form p.thankYou {
+  color: var(--brand-secondary);
+}

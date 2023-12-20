@@ -2,11 +2,12 @@ import { ChangeEvent, ReactNode } from 'react'
 import { InputType } from './types'
 import styles from './form.module.css'
 
-export const Input = ({ name, onChange, placeholder, type }: {
+export const Input = ({ name, onChange, placeholder, type, value }: {
   name: string
   onChange: (e: ChangeEvent<HTMLInputElement>) => void
   placeholder: string
   type: InputType
+  value?: string
 }) => {
   return (
     <input
@@ -15,6 +16,7 @@ export const Input = ({ name, onChange, placeholder, type }: {
       onChange={onChange}
       placeholder={placeholder}
       type={type}
+      value={value}
     />
   )
 }
