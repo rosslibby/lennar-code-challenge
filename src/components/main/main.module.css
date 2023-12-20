@@ -3,6 +3,15 @@
   grid-template-columns: repeat(2, 50%);
   gap: 2rem;
   padding: 6rem 0.5rem;
+  background-image: url('../../../public/assets/illustration.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.graphic img {
+  max-width: 100%;
 }
 
 .main h1 {
@@ -26,6 +35,11 @@
 }
 
 @media screen and (max-width: 1080px) {
+  .main {
+    background-size: 492px;
+    background-position-y: center;
+  }
+
   .main h1 {
     font-size: 3.75rem;
     line-height: 3.75rem;
@@ -38,6 +52,12 @@
 }
 
 @media screen and (max-width: 834px) {
+  .main {
+    background-size: 624px;
+    background-position-x: 250%;
+    background-position-y: 2rem;
+  }
+
   .main h1 {
     font-size: 3rem;
     line-height: 3rem;
@@ -47,7 +67,10 @@
 
 @media screen and (max-width: 833px) {
   .main {
+    background-size: 100%;
+    background-position-y: 85%;
     grid-template-columns: 1fr;
+    height: 100vh;
     padding: 2.5rem 0;
   }
 
