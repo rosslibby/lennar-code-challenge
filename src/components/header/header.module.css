@@ -2,6 +2,7 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
+  padding: 1.5rem 1.5rem 0;
 }
 
 .leading {
@@ -30,6 +31,10 @@
 }
 
 @media screen and (max-width: 833px) {
+  .header {
+    padding: 1.5rem 1rem 0;
+  }
+
   .leading {
     display: flex;
     justify-content: space-between;

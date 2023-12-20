@@ -26,6 +26,9 @@ export default function Main() {
           <p>Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="/terms-of-service">terms of service</a>.</p>
         </form>
       </div>
+      <div className={styles.graphic}>
+        <img src="./assets/illustration.svg" alt="Epic Illustration" />
+      </div>
     </main>
   )
 }

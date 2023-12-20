@@ -2,16 +2,13 @@
   display: grid;
   grid-template-columns: repeat(2, 50%);
   gap: 2rem;
-  padding: 6rem 0.5rem;
-  background-image: url('../../../public/assets/illustration.svg');
-  background-position: right;
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
+  padding: 6rem 0 6rem 2rem;
 }
 
-.graphic img {
-  max-width: 100%;
+.graphic {
+  overflow: hidden;
+  position: relative;
+  transform: translateY(-10%);
 }
 
 .main h1 {
@@ -76,15 +73,25 @@
   .form {
     width: 144%;
   }
+
+  .graphic {
+    transform: translate(7%, -10%);
+  }
+
+  .graphic img {
+    height: 88%;
+    transform: translateX(-2%);
+  }
 }
 
 @media screen and (max-width: 833px) {
   .main {
     background-size: 100%;
     background-position-y: 85%;
+    gap: 3rem;
     grid-template-columns: 1fr;
     height: 100vh;
-    padding: 2.5rem 0;
+    padding: 2.5rem 1rem;
   }
 
   .main h1 {
@@ -101,6 +108,18 @@
   }
 
   .form {
+    width: 100%;
+  }
+
+  .graphic {
+    align-items: start;
+    display: grid;
+    justify-content: center;
+    transform: none;
+  }
+
+  .graphic img {
+    height: auto;
     width: 100%;
   }
 }
