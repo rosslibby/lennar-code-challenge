@@ -28,8 +28,6 @@ export default function Main() {
       }
     }
   })
-  if (loading) console.log('Submitting...')
-  if (error) console.error('Error!', error.message)
 
   return (
     <main className={styles.main}>
