@@ -8,6 +8,9 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.leading}>
         <img className={styles.logo} src="./assets/logo.svg" alt="Lennar Code Challenge" />
+        <span className={styles.mobileNav}>
+          <img src="./assets/hamburger.svg" />
+        </span>
         <Nav />
       </div>
       <div className={styles.trailing}>

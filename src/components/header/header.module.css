@@ -18,8 +18,29 @@
   grid-auto-flow: column;
 }
 
+.mobileNav {
+  align-items: center;
+  display: grid;
+  height: 2.5rem;
+  justify-content: center;
+  margin-right: -0.5rem;
+  width: 2.5rem;
+}
+
 @media screen and (max-width: 833px) {
+  .leading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
   .trailing {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 834px) {
+  .mobileNav {
     display: none;
   }
 }
